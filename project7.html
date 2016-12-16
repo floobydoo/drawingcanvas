@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <link rel="stylesheet" href="project7.css">
+    <link rel="icon" href="http://vignette2.wikia.nocookie.net/logo-timeline/images/1/1e/Eski-Windows-6.png/revision/latest?cb=20131218043827">
+    <title>
+        Microsoft Paint
+    </title>
+</head>
+
+<body>
+  <div id="programcontainer">
+    <div id="drawingarea">
+      <svg id="screen" width="70%" viewBox="0 0 800 400">
+        <rect x="0" y="0" width="800" height="400" fill="white" opacity="1"/>
+      </svg>
+    </div>
+    <div id="optionsarea" class="no-copy">
+      <select class="selector" id ="colorSelect">
+        <option value="#FF0000">Red</option>
+        <option value="#0000FF">Blue</option>
+        <option value="#00FF00">Green</option>
+        <option value="#FFFF00">Yellow</option>
+        <option value="#990099">Purple</option>
+        <option value="#ffffff">👌 Eraser</option>
+      </select>
+      <select class="selector" id ="shapeSelect">
+        <option value="square">Square</option>
+        <option value="circle">Circle</option>
+      </select>
+      <select id ="sizeSelect">
+        <option value="10">10</option>
+        <option value="20">20</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+        <option value="500">500</option>
+      </select>
+      <button class="outa" onclick="clearCanvas()">Erase</button>
+    </div>
+  </div>
+
+<script src="project7.js"></script>
+</body>
+</html>

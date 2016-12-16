@@ -1,0 +1,33 @@
+html {
+  background: url(get.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.img {
+  font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  font-size: 10px;
+  background: #C0C0C0;
+  color: #000000;
+  border: 0px none;
+  outline: 0px none;
+  z-index: 10;
+}
+.imag {
+  z-index: -1;
+}
+
+.img:hover {
+  background: #74A599;
+}
+
+.img:active {
+  background: #F6A953;
+}
+​
